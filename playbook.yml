@@ -1,0 +1,8 @@
+---
+- hosts: all
+  vars:
+     name: Vinh
+  tasks:
+    - name: Show me something cool
+      debug:
+        vars: name
